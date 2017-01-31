@@ -1,0 +1,8 @@
+--- src/linguist/shared/formats.pri.orig	2014-05-30 16:46:24.383539733 +0200
++++ src/linguist/shared/formats.pri	2014-05-30 16:46:32.906676427 +0200
+@@ -20,3 +20,5 @@
+     $$PWD/po.cpp \
+     $$PWD/ts.cpp \
+     $$PWD/xliff.cpp
++
++QMAKE_CXXFLAGS_CXX11 =
